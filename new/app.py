@@ -11,6 +11,8 @@ import pandas as pd
 from langchain_community.document_loaders import PyPDFLoader
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import sent_tokenize
+import nltk
+nltk.download('punkt_tab')
 from tqdm import tqdm
 from langchain_core.documents import Document
 
