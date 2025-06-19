@@ -1,3 +1,4 @@
 arxiv-metadata-oai-snapshot.json
 dlvenv/
 .env
+.gitignore
